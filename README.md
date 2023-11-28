@@ -4,7 +4,12 @@
     * Exposed: Matching에 못 들어간 Node
 * Maximum matching: Matching들 중 edge 수 최대
 
-# Idea of algorithm
+## Micali, Silvio and Vazirani's algorithm
+* Free vertex: 연결 안된 node
+* Alternating path: 매칭O, 매칭X의 반복
+* Augmenting path: 두 free vertices의 alternating path
+
+# Idea of Edmonds' algorithm
 * Augmenting paths
     * A path의 양 끝이 exposed일 때, match 상태 뒤집기
     * Edge가 +1되는 효과
